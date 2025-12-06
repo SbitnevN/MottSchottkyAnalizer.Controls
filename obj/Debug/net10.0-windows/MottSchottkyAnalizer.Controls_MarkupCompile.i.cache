@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-5-115948624
+7-922312795
 
-7-1151727376
-2071751705415
-Files\FileSelector.xaml;Themes\Styles\Colors.xaml;Themes\Styles\Fonts.xaml;Themes\Styles\RoundedControls.xaml;Themes\Styles\Style.xaml;
+151255883693
+2361958305038
+CustomMenu\MenuView.xaml;Files\FileSelector.xaml;ListEditor\ListEditorView.xaml;Themes\Styles\Colors.xaml;Themes\Styles\Fonts.xaml;Themes\Styles\RoundedControls.xaml;Themes\Styles\Style.xaml;
 
-True
+False
 

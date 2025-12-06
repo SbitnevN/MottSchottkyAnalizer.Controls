@@ -1,0 +1,16 @@
+﻿<Menu x:Class="MottSchottkyAnalizer.Controls.CustomMenu.MenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MottSchottkyAnalizer.Controls.CustomMenu"
+             mc:Ignorable="d">
+
+    <MenuItem Header="Файл">
+        <MenuItem Header="Импорт" Command="{Binding ImportCommand}"/>
+        <MenuItem Header="Экспорт">
+            <MenuItem Header="эксп. данные" Command="{Binding ExportCommand}"/>
+            <MenuItem Header="расч. данные"/>
+        </MenuItem>
+    </MenuItem>
+</Menu>

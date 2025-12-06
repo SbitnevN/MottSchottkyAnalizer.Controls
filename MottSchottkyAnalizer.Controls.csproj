@@ -10,6 +10,13 @@
   <ItemGroup>
     <ProjectReference Include="..\MottSchottkyAnalizer.Core\MottSchottkyAnalizer.Core.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.DI\MottSchottkyAnalizer.DI.csproj" />
+    <ProjectReference Include="..\MottSchottkyAnalizer.Infrastructure\MottSchottkyAnalizer.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ListEditor\ListEditorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

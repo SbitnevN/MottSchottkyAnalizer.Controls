@@ -1,4 +1,4 @@
-﻿using ElinsDataParser.Data;
+﻿using ElinsData.Data;
 using MottSchottkyAnalizer.Core.ViewModel;
 using MottSchottkyAnalizer.DI.Registration;
 using MottSchottkyAnalizer.Infrastructure.Files;
@@ -10,7 +10,6 @@ namespace MottSchottkyAnalizer.Controls.CustomMenu;
 public class MenuViewModel : ViewModelBase
 {
     private readonly IFileService _fileService;
-    private readonly IParser _parser;
 
     public IRelayCommand ImportCommand { get; }
     public IRelayCommand ExportCommand { get; }
@@ -18,19 +17,18 @@ public class MenuViewModel : ViewModelBase
     public event EventHandler<MenuViewModel, DataImportedEventArgs>? DataImported;
     public event EventHandler<MenuViewModel, DataExportedEventArgs>? DataExported;
 
-    public MenuViewModel(IFileService fileService, IParser parser)
+    public MenuViewModel(IFileService fileService)
     {
         ImportCommand = new RelayCommand(Import);
         ExportCommand = new RelayCommand(Export);
 
         _fileService = fileService;
-        _parser = parser;
     }
 
     public void Import()
     {
         string path = _fileService.SelectFile(Filters.ExperimentalFilter);
-        ElinsData data = _parser.Parse(path);
+        ElinsRecord data = ElinsFactory.Create(path);
 
         DataImported?.Invoke(this, new DataImportedEventArgs(data));
     }

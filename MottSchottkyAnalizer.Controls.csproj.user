@@ -5,8 +5,5 @@
     <Compile Update="CustomMenu\MenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Files\FileSelector.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

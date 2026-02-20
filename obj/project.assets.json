@@ -188,7 +188,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -578,14 +578,17 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "ElinsDataParser/1.0.0": {
+      "ElinsData/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "MottSchottkyAnalizer.Math": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/ElinsDataParser.dll": {}
+          "bin/placeholder/ElinsData.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ElinsDataParser.dll": {}
+          "bin/placeholder/ElinsData.dll": {}
         }
       },
       "MottSchottkyAnalizer.Core/1.0.0": {
@@ -619,7 +622,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "ElinsDataParser": "1.0.0",
+          "ElinsData": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
           "MottSchottkyAnalizer.Core": "1.0.0",
           "MottSchottkyAnalizer.DI": "1.0.0"
         },
@@ -632,6 +636,16 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "MottSchottkyAnalizer.Math/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/MottSchottkyAnalizer.Math.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MottSchottkyAnalizer.Math.dll": {}
+        }
       }
     }
   },
@@ -916,10 +930,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
-      "sha512": "L3AdmZ1WOK4XXT5YFPEwyt0ep6l8lGIPs7F5OOBZc77Zqeo01Of7XXICy47628sdVl0v/owxYJTe86DTgFwKCA==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
+      "sha512": "zOIurr59+kUf9vNcsUkCvKWZv+fPosUZXURZesYkJCvl0EzTc9F7maAO4Cd2WEV7ZJJ0AZrFQvuH6Npph9wdBw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -942,7 +956,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1501,10 +1515,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ElinsDataParser/1.0.0": {
+    "ElinsData/1.0.0": {
       "type": "project",
-      "path": "../ElinsDataParser/ElinsDataParser.csproj",
-      "msbuildProject": "../ElinsDataParser/ElinsDataParser.csproj"
+      "path": "../ElinsData/ElinsData.csproj",
+      "msbuildProject": "../ElinsData/ElinsData.csproj"
     },
     "MottSchottkyAnalizer.Core/1.0.0": {
       "type": "project",
@@ -1520,6 +1534,11 @@
       "type": "project",
       "path": "../MottSchottkyAnalizer.Infrastructure/MottSchottkyAnalizer.Infrastructure.csproj",
       "msbuildProject": "../MottSchottkyAnalizer.Infrastructure/MottSchottkyAnalizer.Infrastructure.csproj"
+    },
+    "MottSchottkyAnalizer.Math/1.0.0": {
+      "type": "project",
+      "path": "../MottSchottkyAnalizer.Math/MottSchottkyAnalizer.Math.csproj",
+      "msbuildProject": "../MottSchottkyAnalizer.Math/MottSchottkyAnalizer.Math.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1530,23 +1549,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rer4e\\.nuget\\packages\\": {},
+    "C:\\Users\\sbitn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+      "projectUniqueName": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
       "projectName": "MottSchottkyAnalizer.Controls",
-      "projectPath": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
-      "packagesPath": "C:\\Users\\rer4e\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\obj\\",
+      "projectPath": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+      "packagesPath": "C:\\Users\\sbitn\\.nuget\\packages\\",
+      "outputPath": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rer4e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sbitn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1562,14 +1581,14 @@
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj": {
-              "projectPath": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj"
+            "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj": {
+              "projectPath": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj"
             },
-            "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj": {
-              "projectPath": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj"
+            "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj": {
+              "projectPath": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj"
             },
-            "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj": {
-              "projectPath": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj"
+            "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj": {
+              "projectPath": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj"
             }
           }
         }
@@ -1608,7 +1627,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

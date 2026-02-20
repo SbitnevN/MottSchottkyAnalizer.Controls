@@ -1,8 +1,8 @@
-﻿using ElinsDataParser.Data;
+﻿using ElinsData.Data;
 
 namespace MottSchottkyAnalizer.Controls.CustomMenu;
 
-public class DataImportedEventArgs(ElinsData data) : EventArgs
+public class DataImportedEventArgs(ElinsRecord data) : EventArgs
 {
-    public ElinsData Data { get; set; } = data;
+    public ElinsRecord Data { get; set; } = data;
 }

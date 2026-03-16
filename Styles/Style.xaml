@@ -1,0 +1,15 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/Common.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/Colors.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/Fonts.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/CardStyle.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Controls/Drawer/Style.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Controls/LabeledTextBox/Style.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/ButtonStyle.xaml" />
+		<ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/TabControlStyle.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

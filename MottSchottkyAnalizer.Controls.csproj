@@ -8,15 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Styles\Fonts\FontAwesome.otf" />
+    <None Remove="Styles\Fonts\Montserrat-Bold.ttf" />
+    <None Remove="Styles\Fonts\Rubik-VariableFont_wght.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.142" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MottSchottkyAnalizer.Core\MottSchottkyAnalizer.Core.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.DI\MottSchottkyAnalizer.DI.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.Infrastructure\MottSchottkyAnalizer.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="ListEditor\ListEditorView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Resource Include="Styles\Fonts\FontAwesome.otf" />
+    <Resource Include="Styles\Fonts\Montserrat-Bold.ttf" />
+    <Resource Include="Styles\Fonts\Rubik-VariableFont_wght.ttf" />
   </ItemGroup>
 
 </Project>

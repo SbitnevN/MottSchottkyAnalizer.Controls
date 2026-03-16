@@ -1,0 +1,55 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="#77A1A6" />
+    <SolidColorBrush x:Key="SecondaryBrush" Color="#1D6A73" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#ED1E8B" />
+    <SolidColorBrush x:Key="BackgroundBrush" Color="#FFF1FAFB" />
+    <SolidColorBrush x:Key="TextBrush" Color="#FF1D3557" />
+    <SolidColorBrush x:Key="BorderBrush" Color="#FF1D3557" />
+    <SolidColorBrush x:Key="ErrorBrush" Color="#FFEF476F" />
+    <SolidColorBrush x:Key="SuccessBrush" Color="#FF06D6A0" />
+
+    <SolidColorBrush x:Key="White" Color="#F2F2F2" />
+    <SolidColorBrush x:Key="Black" Color="#1F1F1F" />
+
+    <SolidColorBrush x:Key="OverlayColor" Color="#80000000" />
+
+    <SolidColorBrush x:Key="PrimaryLight" Color="#fff" />
+    <SolidColorBrush x:Key="SecondaryLight" Color="#e8e8e8" />
+
+    <SolidColorBrush x:Key="PrimaryText" Color="#FF181816" />
+
+
+    <SolidColorBrush x:Key="PageBrush" Color="#F7F6F2" />
+    <SolidColorBrush x:Key="PanelBrush" Color="#FFFDFCFA" />
+    <SolidColorBrush x:Key="PanelAltBrush" Color="#FFF2F0EA" />
+    <SolidColorBrush x:Key="PanelSubtleBrush" Color="#FFF8F7F4" />
+
+    <SolidColorBrush x:Key="BorderBrushSoft" Color="#FFE1DDD5" />
+    <SolidColorBrush x:Key="BorderBrushStrong" Color="#FFC8C1B6" />
+    <SolidColorBrush x:Key="GhostBorderBrush" Color="#FFD3CCC0" />
+    <SolidColorBrush x:Key="DividerBrush" Color="#FFE4E0D8" />
+
+    <SolidColorBrush x:Key="MutedTextBrush" Color="#FF65615B" />
+    <SolidColorBrush x:Key="EyebrowBrush" Color="#FF847F78" />
+    <SolidColorBrush x:Key="PrimaryForegroundBrush" Color="#FFF8F6F2" />
+
+    <SolidColorBrush x:Key="PrimaryHoverBrush" Color="#FF2D2D2A" />
+
+    <SolidColorBrush x:Key="SoftBrush" Color="#FFF0EDE6" />
+    <SolidColorBrush x:Key="SoftBorderBrush" Color="#FFE0D9CE" />
+    <SolidColorBrush x:Key="SoftHoverBrush" Color="#FFE7E3DB" />
+    <SolidColorBrush x:Key="SoftHoverBorderBrush" Color="#FFD2C8BB" />
+
+    <SolidColorBrush x:Key="AccentBorderBrush" Color="#FFD0D7CC" />
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="#FFDCE1DA" />
+    <SolidColorBrush x:Key="AccentHoverBorderBrush" Color="#FFBCC6B9" />
+
+    <SolidColorBrush x:Key="SecondaryHoverBorderBrush" Color="#FFB6AEA2" />
+    <SolidColorBrush x:Key="GhostHoverBrush" Color="#FFF0EEE8" />
+    <SolidColorBrush x:Key="GhostHoverBorderBrush" Color="#FFBFB6AA" />
+
+    <SolidColorBrush x:Key="WhiteBrush" Color="#FFFFFFFF" />
+    <SolidColorBrush x:Key="TransparentBrush" Color="#00FFFFFF" />
+
+</ResourceDictionary>

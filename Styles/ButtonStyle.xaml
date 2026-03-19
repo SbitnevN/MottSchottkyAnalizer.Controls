@@ -3,6 +3,8 @@
     <Style x:Key="GhostButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="Foreground" Value="{DynamicResource PrimaryText}" />
+        <Setter Property="FontFamily" Value="{DynamicResource TextFont}" />
+        <Setter Property="FontSize" Value="{DynamicResource BigFontSize}" />
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="HorizontalContentAlignment" Value="Left" />
         <Setter Property="VerticalContentAlignment" Value="Center" />

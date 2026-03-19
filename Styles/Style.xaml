@@ -9,7 +9,8 @@
         <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Controls/Drawer/Style.xaml" />
         <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Controls/LabeledTextBox/Style.xaml" />
         <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/ButtonStyle.xaml" />
-		<ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/TabControlStyle.xaml"/>
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/TabControlStyle.xaml" />
+        <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/ComboBoxStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
 </ResourceDictionary>

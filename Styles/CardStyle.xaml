@@ -3,7 +3,7 @@
     <Style x:Key="CardStyle" TargetType="Border">
         <Setter Property="Background" Value="{DynamicResource PanelBrush}" />
         <Setter Property="CornerRadius" Value="{DynamicResource NormalCornerRadius}" />
-        <Setter Property="Margin" Value="20,20" />
+        <Setter Property="Margin" Value="20,10,10,10" />
         <Setter Property="Padding" Value="10" />
 
         <Setter Property="Effect">
